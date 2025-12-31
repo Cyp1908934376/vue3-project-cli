@@ -1,0 +1,89 @@
+:root {
+  /* Logo dimensions */
+  --header-logo-width: 120px;
+  --header-logo-height: 55px;
+
+  --layout-footer-height: 56px;
+
+  /* --- 菜单全局变量 --- */
+
+  /* 1. 菜单背景色 */
+  /* --menu-background-color: #545c64; */
+
+  /* 2. 默认文字颜色 */
+  /* --menu-text-color: #fff; */
+
+  /* 3. 选中/激活的文字颜色 */
+  /* --menu-active-text-color: #ffd04b; */
+
+  /* 4. 鼠标悬停时的背景色 */
+  /* --menu-hover-bg-color: rgba(255, 255, 255, 0.1); */
+
+  /* 5. 选中项的背景色 (深色背景) */
+  /* --menu-selected-bg-color: #1f2d3d; */
+
+  /* 6. 选中项右侧边框颜色 (亮色条) */
+  /* --menu-selected-border-color: #ffd04b; */
+
+  /* Colors */
+  --color-primary: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-10: rgba(59, 130, 246, 0.08);
+  --color-success: #16a34a;
+  --color-danger: #ef4444;
+  --color-text: #111827;
+  --color-muted: #6b7280;
+
+  /* Surface layers */
+  --surface-0: #ffffff; /* page background */
+  --surface-1: #f7f9fb; /* cards */
+  --surface-2: #f2f4f7; /* sidebars */
+  --surface-3: #e5e7eb; /* subtle surfaces */
+
+  /* Header specific */
+  --header-background-1: #ffffff;
+
+  /* Borders / radius / shadow */
+  --color-border: #e5e7eb;
+  --radius-base: 8px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  /* Z / Layering */
+  --z-dropdown: 1000;
+  --z-modal: 1100;
+
+  /* Layout specific */
+  --sidebar-min-width: 64px;
+  --sidebar-max-width: 260px;
+
+  /* Typography */
+  --font-size-base: 15px;
+
+  /* --- Element Plus mapping (方便覆盖第三方样式) --- */
+  --el-color-primary: var(--color-primary);
+  --el-text-color: var(--color-text);
+  --el-border-color: var(--color-border);
+}
+
+/* Dark theme override */
+[data-theme='dark'] {
+  --surface-0: #0b1220;
+  --surface-1: #0f1724;
+  --surface-2: #111827;
+  --surface-3: #1f2937;
+  --color-text: #e6eef8;
+  --color-border: #1f2937;
+
+  /* Element Plus overrides for dark */
+  --el-color-primary: var(--color-primary);
+  --el-text-color: var(--color-text);
+  --el-border-color: var(--color-border);
+}
