@@ -5,25 +5,13 @@
 
   --layout-footer-height: 56px;
 
-  /* --- 菜单全局变量 --- */
-
-  /* 1. 菜单背景色 */
-  /* --menu-background-color: #545c64; */
-
-  /* 2. 默认文字颜色 */
-  /* --menu-text-color: #fff; */
-
-  /* 3. 选中/激活的文字颜色 */
-  /* --menu-active-text-color: #ffd04b; */
-
-  /* 4. 鼠标悬停时的背景色 */
-  /* --menu-hover-bg-color: rgba(255, 255, 255, 0.1); */
-
-  /* 5. 选中项的背景色 (深色背景) */
-  /* --menu-selected-bg-color: #1f2d3d; */
-
-  /* 6. 选中项右侧边框颜色 (亮色条) */
-  /* --menu-selected-border-color: #ffd04b; */
+  /* --- menu --- */
+  /* --menu-background-color: #545c64;
+  --menu-text-color: #fff;
+  --menu-active-text-color: #ffd04b;
+  --menu-hover-bg-color: rgba(255, 255, 255, 0.1);
+  --menu-selected-bg-color: #1f2d3d;
+  --menu-selected-border-color: #ffd04b; */
 
   /* Colors */
   --color-primary: #3b82f6;
