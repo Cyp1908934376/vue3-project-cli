@@ -1,0 +1,6 @@
+export enum ErrorCode {
+  SUCCESS = 200,
+  TOKEN_EXPIRED = 401,
+  NO_PERMISSION = 403,
+  SERVER_ERROR = 500,
+}
