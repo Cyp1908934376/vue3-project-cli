@@ -5,8 +5,13 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 
+    // 1. 关键配置：设置 baseUrl 为根目录
+    "baseUrl": ".",
+    // 2. 关键配置：设置别名映射
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"],
+      "@config/*": ["config/*"], // <--- 加上这一行
+      "@modules/*": ["modules/*"] // <--- 加上这一行
     }
   }
 }

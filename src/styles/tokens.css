@@ -1,5 +1,6 @@
 :root {
   /* Logo dimensions */
+  /* 这里宽度和sidebar保持一致 */
   --header-logo-width: 120px;
   --header-logo-height: 55px;
 
